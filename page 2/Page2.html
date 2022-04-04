@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <h1 id="logotop"><span id="top"> Coding </span>For Life</h1>
+    <form action="#" id="regform">
+        
+      <img src="../img/logo.png" alt="" id="piclogo">
+            <h1 id="reg">Register</h1>
+    <div class="field-group">
+        <label  for="first-name">First Name</label>
+        <input required="true" name='firstName' id="fname" type="text" placeholder="First Name" class="inp">
+        <img src="./icon-error.svg" class="error-icon" id="one" alt="" >
+        <p id="e1" class="erro"></p> 
+        <p></p>            
+      </div>
+      <div class="field-group">
+        <label for="last-name">last Name</label>
+        <input required="true" name='lastName' id="lname" type="text" placeholder="Last Name" class="inp"> 
+        <img src="./icon-error.svg" class="error-icon" alt="" id="three">
+        <p id="e4" class="erro"></p>  
+        <p></p>            
+      </div>
+      <div class="field-group">
+        <label for="Email">Email Address</label>
+        <input required="true" name='Email' id="Email" class="inp" type="email" placeholder="Email Address" >
+        <img src="./icon-error.svg" class="error-icon" alt="" id="five">
+        <p id="e2" class="error-text"></p>
+        <p></p>
+                      
+      </div>
+      <div class="field-group">
+        <label for="cEmail">Confirm Email Address</label>
+        <input required="true" name='conEmail' id="cEmail" value="" type="email" placeholder="Confirm Email Address" class="inp">
+        <img src="./icon-error.svg" class="error-icon" alt="" id="seven">
+        <p class="error-text" id="eight">Email dose not matching</p>   
+        <p class=></p>           
+      </div>
+      <div class="field-group">
+        <label for="password">Password </label>
+        <input required="true" name='password' id="password" value="" type="password" placeholder="Password" class="inp">
+        <img src="./icon-error.svg" class="error-icon" alt="" id="nighn">
+        <p id="e3"></p>
+        <p class="error-text" id="ten">Password cannot be empty</p>  
+        <p ></p>            
+      </div>
+      <div class="field-group">
+        <label for="cpassword">Confirm Password</label>
+        <input required="true" name='conpassword' id="cpassword" value="" type="password" placeholder="Confirm Password" class="inp">
+        <img src="./icon-error.svg" class="error-icon" alt=""  id="oneO">
+        <p class="error-text"  id="twoT">Password does not matching</p>  
+        <p ></p>            
+      </div>
+      <div class="field-group">
+      <label for="i" id="topic">Choose the topice </label>
+      <select id="i" name="topic">
+        <option >HTML</option>
+        <option >CSS</option>
+        <option >JS</option>
+    </select><br>
+  </div>
+      <button type="submit" ><a id="butt" >Submit </a> </button>
+    
+    </form>
+</body>
+<script src="./app2.js"></script>
+</html>

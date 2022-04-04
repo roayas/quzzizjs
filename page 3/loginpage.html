@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  
+  <form action="" method="get" id="loginForm">
+
+    <img  src="https://scontent.famm11-1.fna.fbcdn.net/v/t1.15752-9/277212446_1671404836545196_5794000508194599925_n.png?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=NqNPY0sf2eUAX_pt826&_nc_ht=scontent.famm11-1.fna&oh=03_AVKslm81pbsfQTovnL6NRbQr0oIfAFy4t0jec2jy--Anog&oe=62713DA3" alt="" id="piclogo">
+
+    <br>
+    <br>
+
+<div class="field-group">
+
+    <label for="email"></label>
+
+    <input type="email"placeholder=" Email" id="email" name="email" required="true">
+
+    <img src="./icon-error.svg" class="error-icon" alt="error"  id="oneO">
+
+    <p class="error-text"  id="one">Invalid email</p>    
+
+  </div>
+  <br>
+  
+  <div class="field-group">
+
+    <label for="email"></label>
+
+    <input type="password" placeholder="Password" id="password" name="password" required="true">
+
+  
+    <img src="./icon-error.svg" class="error-icon" alt="error"  id="twoT">
+
+    <p class="error-text"  id="two">wrong password</p>        
+
+  </div>
+  <br>
+  <br>
+
+<button style="background-color: orange; height: 40px; width: 50%; margin-left: 25%;margin-right: 25%; text-align: center; " type="button" onclick="getinfofromlocal()"><a id="butt2" > Log In</a></button>
+
+</form>
+  
+   
+</body>
+<script src="app3.js"></script>
+</html>
